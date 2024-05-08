@@ -1,0 +1,23 @@
+.pagination-button {
+  width: 35px;
+  height: 35px;
+  background-color: rgba(24, 24, 51, 0.7);
+  margin: 2px;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  color: white;
+  font-size: 15px;
+
+  &--active {
+    width: 35px;
+    height: 35px;
+    background-color: rgba(141, 141, 148, 0.7);
+    margin: 2px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    color: white;
+    font-size: 20px;
+  }
+}

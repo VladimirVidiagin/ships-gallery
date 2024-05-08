@@ -1,0 +1,13 @@
+.select-field {
+  &__label {
+    font-weight: 400;
+    font-size: 30px;
+    color: white;
+    margin-right: 10px;
+  }
+
+  &__select-area {
+    height: 60px;
+    color: white;
+  }
+}

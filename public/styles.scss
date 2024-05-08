@@ -1,0 +1,13 @@
+@import "../src/app/globalStyles";
+
+// shared
+@import "../src/shared/Pagination/pagination",
+  "../src/shared/SelectInput/selectInput", "../src/shared/Loader/loader";
+
+// entities
+@import "../src/entities/ShipCard/shipCard";
+
+// widgets
+
+// pages
+@import "../src/pages/ShipsPage/ui/shipsPage";

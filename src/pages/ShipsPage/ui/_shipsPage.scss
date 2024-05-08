@@ -1,0 +1,14 @@
+.ships-page {
+  padding: 64px;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(77, 125, 235),
+    rgb(1, 1, 80)
+  );
+  width: 100%;
+  height: 100vh;
+  overflow-y: auto;
+  & > *:not(:last-child) {
+    margin-bottom: 16px;
+  }
+}

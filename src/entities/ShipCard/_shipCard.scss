@@ -1,0 +1,61 @@
+.ship-card {
+  display: flex;
+  position: relative;
+  background-color: rgba(0, 0, 50, 0.7);
+  border-radius: 10px;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  min-height: 300px;
+  min-width: 1000px;
+  &__nation-flag {
+    position: absolute;
+    top: 0;
+    left: 5px;
+    height: 300px;
+  }
+  &__nation-title {
+    position: absolute;
+    bottom: 10px;
+    left: 25px;
+    font-weight: 400;
+    font-size: 40px;
+    color: white;
+    z-index: 1;
+  }
+  &__class-icon {
+    position: absolute;
+    top: -10px;
+    right: 10px;
+    width: 100px;
+  }
+  &__level {
+    position: absolute;
+    top: 18px;
+    right: calc(100px + 10px);
+    font-weight: 400;
+    font-size: 40px;
+    color: white;
+  }
+  &__ship-image {
+    height: 290px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  &__ship-description {
+    margin-top: 50px;
+    margin-left: 500px;
+    margin-bottom: 70px;
+    width: 55%;
+    color: white;
+  }
+  &__ship-title {
+    position: absolute;
+    bottom: 10px;
+    right: 25px;
+    font-weight: 400;
+    font-size: 60px;
+    color: rgb(206, 182, 23);
+  }
+}
